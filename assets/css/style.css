@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+--color-1: #cdb4dbff;
+--color-2: #ffc8ddff;
+--color-3: #ffafccff;
+--color-4: #bde0feff;
+--color-5: #a2d2ffff;
+--color-6: #F8F9FA;
+--color-7: #d11149;
+--color-8: black;
+
+}
+
+
+body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+main{
+    width: 100%;
+    background-color: var(--color-3);
+}
+
+/* section_1 */
+
+.section_1{
+
+    background-color: var(--color-2);
+    height: calc(100vh);
+}
+
+/* header */
+
+.header{
+    background-color: #ffafccff;
+    display: flex;
+    width: 100%;
+    height: 55px;
+    position: sticky;
+    top: 0;
+}
+
+.header-logo{
+   
+    width: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-left: 13px;
+    margin-right: 900px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+         
+}
+
+
+.logo{
+    text-decoration: none;
+    color: var(--color-7);
+    font-weight: bold;
+    
+}
+.logo1{
+    text-decoration: none;
+    margin-left: 3px;
+    color: var(--color-8);
+    font-weight: bold;
+    
+}
+
+.nav{
+    display: flex;
+    width: 70%;
+    justify-content: end;
+    align-items: center;
+    padding-right: 0px;
+    position: static;
+    top: 0;
+}
+
+.link{
+
+    text-decoration: none;
+    margin: 1% 2%;
+}
+.link:hover{
+    color: #ffc8ddff;
+    text-decoration:underline;
+}
+
+.banner_title{
+       
+      font-size: 1.5rem;
+      margin-top: 80px;
+      padding-bottom: 30px;
+      
+
+
+}
+
+.banner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+
+}
+
+
+.imagen > img{
+
+      width: 15rem;
+      height: 15rem;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-left: 30px;
+}
+
+.imagen{
+    display: inline-block;
+    text-align: center;
+       
+}
+
+h3{
+    font-size: 13px;
+}
+footer{
+
+   background-color: var(--color-3);
+   padding-top: 30px;
+   text-align: center;
+   justify-content: center;
+
+}
+.h5{
+    padding-bottom: 30px;
+}
+
+.wasapp > img {
+    width: 4rem;
+    text-align: center;
+    position: fixed;
+    right:40px;
+    bottom: 5px;
+}
